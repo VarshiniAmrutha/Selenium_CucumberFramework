@@ -28,7 +28,10 @@ public class UiUtils {
 	public static WebElement getWebElement(String xpath) {
 		return driver.findElement(By.xpath(xpath));
 	}
-
+	
+	/*
+	 * Switching to new window or Tab
+	 */
 	public void switchtoNewWindow() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(numberOfWindowsToBe(2));

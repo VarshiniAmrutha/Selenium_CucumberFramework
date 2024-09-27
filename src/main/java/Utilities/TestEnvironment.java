@@ -16,6 +16,7 @@ public class TestEnvironment {
 	public WebDriver driver;
 	
 	/*
+	 * Environment setuo
 	 * System property has to be set for the drivers.
 	 */
 	public WebDriver WebDriverManager()

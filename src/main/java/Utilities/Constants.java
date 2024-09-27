@@ -1,5 +1,8 @@
 package Utilities;
 
+/*
+ * This class is for all the constants 
+ */
 public class Constants {
 	
 	 /** Location of the drivers path */

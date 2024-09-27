@@ -17,7 +17,7 @@ glue = "steps", monochrome=true, tags = "",
 plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json"})
 public class TestNGRunner extends AbstractTestNGCucumberTests{
 	
-	//This code will enable parallel execution using TestNG
+	//This code will enable parallel execution using TestNG 
 	@Override
 	@DataProvider(parallel=true)
 	public Object[][] scenarios(){

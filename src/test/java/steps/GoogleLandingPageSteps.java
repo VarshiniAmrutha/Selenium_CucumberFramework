@@ -2,9 +2,13 @@ package steps;
 
 
 import Utilities.BasePage;
+
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.GoogleLandingPage;
+/*
+ * Step definitions
+ */
 
 public class GoogleLandingPageSteps {
 	public BasePage basePage;
