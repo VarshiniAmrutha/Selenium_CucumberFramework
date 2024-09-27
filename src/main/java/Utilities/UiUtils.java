@@ -77,5 +77,8 @@ public class UiUtils {
         dragAnddrop.perform();
     }
 	
+	public void switchToFrame(String xpath) {
+		
+	}
 
 }
